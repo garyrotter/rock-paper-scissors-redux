@@ -92,6 +92,6 @@ function playAgain() {
     againbutton.textContent = 'Another round!';
     playagain.appendChild(againbutton);
 
-    const remove = document.getElementById('score-description');
+    const remove = document.getElementById('buttons');
     remove.remove();
 }
